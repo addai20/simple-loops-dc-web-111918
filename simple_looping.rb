@@ -64,7 +64,8 @@ def for_iterator(number_of_times)
   
   phrase = "Welcome to Flatiron School's Web Development Course!"
   
-  
-  
+  for value in 1..number_of_times do
+    puts phrase
+  end
 end
 
